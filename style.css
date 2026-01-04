@@ -741,7 +741,7 @@ footer {
 .snowflake {
     position: fixed;
     top: -2em;
-    font-size: 2em;
+    font-size: .1em;
     pointer-events: none;
     user-select: none;
     z-index: 9999;
@@ -751,7 +751,7 @@ footer {
 
 @keyframes fall {
     0% { top: -2em; opacity: 1; }
-    90% { opacity: 1; }
+    90% { opacity: .1; }
     100% { top: 100vh; opacity: 0; }
 }
 
